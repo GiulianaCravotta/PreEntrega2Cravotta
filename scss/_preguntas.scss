@@ -1,0 +1,28 @@
+.accordion {
+    padding: 20px;
+    margin: 20px 160px;
+    border-radius: 0;
+
+    .accordion-item {
+        border-top: solid 1px #ababab;
+        border-bottom: solid 1px #ababab;
+        border-left: 0;
+        border-right: 0;
+
+        h2{
+            color: $black;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #dfdfdf;
+            color: $black;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            outline: none;
+            color: $black;
+        }
+    }
+
+}

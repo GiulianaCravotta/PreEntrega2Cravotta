@@ -1,0 +1,30 @@
+.controles-productos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .dropdown {
+        margin: 20px 133px;
+    }
+}
+
+.main-contenedor-productos {
+    display: flex;
+
+    .productos-container {
+        margin: 20px 80px;
+    }
+
+    .card {
+        border: none;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    .card-img-top {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 0;
+    }
+}

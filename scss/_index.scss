@@ -1,0 +1,23 @@
+.d-block {
+    height: 400px;
+}
+.productos-destacados-container {
+    h2 {
+        text-align: center;
+        padding: 9px;
+        font-weight: 600;
+        font-size: 25px;
+        margin: 25px;
+    }
+    .card {
+        border: none;
+        align-items: center;
+        margin-bottom: 20px;
+    
+    }
+    .card-img-top {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 0;
+    }
+}

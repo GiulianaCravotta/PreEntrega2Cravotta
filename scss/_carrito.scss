@@ -1,0 +1,89 @@
+.main-carrito {
+    background-color: #d9d8d887;
+}
+
+.miCarrito {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin-left: 4%;
+
+    span {
+        font-size: 40px;
+    }
+}
+
+/* ----------Contenido---------- */
+.compra {
+    grid-area: compra;
+
+}
+
+.resumen {
+    grid-area: resumen;
+}
+
+.compra-resumen {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "compra resumen";
+    grid-template-columns: 2fr 1fr;
+}
+
+/* ----------Tabla Producto---------- */
+.compra table {
+    width: 85%;
+    border-collapse: collapse;
+    margin: 0 10%;
+    background-color: white;
+
+    th,
+    td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    td img {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}
+
+.resumen {
+    width: 85%;
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    height: auto;
+
+    table {
+        width: 90%;
+        margin-left: 20px;
+    }
+    th,
+    td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        font-weight: bold;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        margin: 15px 0;
+        width: 100%;
+
+    }
+}

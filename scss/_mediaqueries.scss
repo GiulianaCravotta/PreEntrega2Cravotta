@@ -1,0 +1,67 @@
+@media(width < 1200px) {
+    .card img {
+        width: 90%;
+    }
+
+    .accordion {
+        margin: 20px 30px;
+    }
+
+    .form-contacto {
+        width: 90%;
+        margin: 2%;
+    }
+
+    .identificador-pagina {
+        margin: 20px;
+        font-size: 15px;
+    }
+
+    .controles-productos {
+        font-size: 15px;
+        display: inline;
+    }
+
+    .dropdown {
+        display: flex;
+        align-items: self-start;
+        margin: 20px
+    }
+
+    .productos-container {
+        margin: 20px;
+    }
+
+    .compra-resumen {
+        grid-template-areas:
+            "compra"
+            "resumen";
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .compra {
+        th {
+            display: none;
+        }
+
+        table {
+            display: block;
+            width: 80%;
+            margin: 3% 5%;
+            font-size: 15px;
+        }
+
+        td {
+            padding: 10px;
+            font-size: 13px;
+        }
+    }
+
+    .resumen {
+        margin: 0 5%;
+        width: 80%;
+
+    }
+
+}

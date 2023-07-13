@@ -3,3 +3,4 @@ node_modules/
 *.map
 *.ai
 *.psd
+node_modules/
