@@ -303,6 +303,10 @@ nav .icons i {
   .main-contenedor-productos .productos-container {
     margin: 20px;
   }
+  .identificador-pagina {
+    margin: 20px;
+    font-size: 15px;
+  }
   .compra-resumen {
     grid-template-areas: "compra" "resumen";
     margin: 0;
