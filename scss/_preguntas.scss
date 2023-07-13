@@ -4,8 +4,8 @@
     border-radius: 0;
 
     .accordion-item {
-        border-top: solid 1px #ababab;
-        border-bottom: solid 1px #ababab;
+        border-top: solid 1px $secondaryColor;
+        border-bottom: solid 1px $secondaryColor;
         border-left: 0;
         border-right: 0;
 
@@ -14,7 +14,7 @@
         }
 
         .accordion-button:not(.collapsed) {
-            background-color: #dfdfdf;
+            background-color:$mainColor;
             color: $black;
         }
 

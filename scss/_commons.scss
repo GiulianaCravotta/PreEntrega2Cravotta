@@ -16,7 +16,7 @@
 
     .breadcrumb-item a {
         text-decoration: none;
-        color: #171616;
+        color: $black;
     }
 }
 
@@ -28,7 +28,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3e3e3e;
+    background-color: $keyColor;
 
     .icons {
         padding: 10px;
@@ -43,8 +43,8 @@ footer {
             i {
                 margin: 10px;
                 padding: 7px;
-                color: rgb(205, 205, 205);
-                font-size: 25px;
+                color:$secondaryColor;
+                @include iconSizes($textMd);
             }
         }
     }
