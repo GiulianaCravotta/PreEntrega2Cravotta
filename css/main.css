@@ -287,20 +287,20 @@ nav .icons i {
     width: 90%;
     margin: 2%;
   }
-  .identificador-pagina {
-    margin: 20px;
-    font-size: 15px;
-  }
   .controles-productos {
     font-size: 15px;
     display: inline;
   }
-  .dropdown {
+  .controles-productos .identificador-pagina {
+    margin: 20px;
+    font-size: 15px;
+  }
+  .controles-productos .dropdown {
     display: flex;
     align-items: self-start;
     margin: 20px;
   }
-  .productos-container {
+  .main-contenedor-productos .productos-container {
     margin: 20px;
   }
   .compra-resumen {

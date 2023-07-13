@@ -12,24 +12,27 @@
         margin: 2%;
     }
 
-    .identificador-pagina {
-        margin: 20px;
-        font-size: 15px;
-    }
-
     .controles-productos {
         font-size: 15px;
         display: inline;
+
+        .identificador-pagina {
+            margin: 20px;
+            font-size: 15px;
+        }
+
+        .dropdown {
+            display: flex;
+            align-items: self-start;
+            margin: 20px;
+        }
+
     }
 
-    .dropdown {
-        display: flex;
-        align-items: self-start;
-        margin: 20px
-    }
-
-    .productos-container {
-        margin: 20px;
+    .main-contenedor-productos {
+        .productos-container {
+            margin: 20px;
+        }
     }
 
     .compra-resumen {
