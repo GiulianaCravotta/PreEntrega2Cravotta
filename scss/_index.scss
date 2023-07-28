@@ -1,6 +1,3 @@
-.d-block {
-    height: 400px;
-}
 .productos-destacados-container {
     h2 {
         text-align: center;
@@ -9,15 +6,29 @@
         font-size: $textMd;
         margin: 25px;
     }
+
     .card {
         border: none;
         align-items: center;
         margin-bottom: 20px;
-    
+        overflow: hidden;
     }
+
     .card-img-top {
         height: 18rem;
         width: 18rem;
         border-radius: 0;
+        transition: transform 0.3s;
     }
+
+    .card-img-top:hover {
+        transform: scale(1.1);
+    }
+
+    .btn {
+        @extend .btn-error;
+    }
+
+
+
 }

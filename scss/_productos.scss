@@ -5,6 +5,11 @@
 
     .dropdown {
         margin: 20px 133px;
+
+        select {
+            padding: 0.5em;
+            margin: 0.1em;
+        }
     }
 }
 
@@ -19,11 +24,31 @@
         border: none;
         align-items: center;
         margin-bottom: 20px;
+        overflow: hidden;
     }
 
     .card-img-top {
         height: 18rem;
         width: 18rem;
         border-radius: 0;
+        margin-bottom: 15px;
+        transition: transform 0.3s;
+    }
+
+    .card-img-top:hover {
+        transform: scale(1.1);
+    }
+
+    .btn {
+        @extend .btn-error;
+    }
+
+    .btn-productos-final {
+        @extend .btn-error;
+        display: flex;
+        justify-content: center;
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
     }
 }

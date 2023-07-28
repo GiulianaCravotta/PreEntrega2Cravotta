@@ -32,7 +32,6 @@ footer {
 
     .icons {
         padding: 10px;
-        color: rgb(205, 205, 205);
         text-align: center;
         margin-top: 5px;
 
@@ -45,7 +44,61 @@ footer {
                 padding: 7px;
                 color:$secondaryColor;
                 @include iconSizes($textMd);
+                &:hover{
+                    color: $mainColor;
+                }
             }
         }
+    }
+}
+
+.btn-error{
+    background-color: transparent;
+    border: 0.125em solid $mainColor;
+    box-sizing: border-box;
+    color: $keyColor;
+    font-size: $textSm;
+    font-weight:$textLight;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+
+    &:hover {
+        color: #fff;
+        background-color: $mainColor;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+}
+
+.error404-container{
+    background-color: $white;
+    h1{
+        color: $black;
+        font-size: $textXXL;
+        font-weight: $textLight;
+        margin: 100px 0 40px 50px;
+    }
+    h3{
+        color: $black;
+        font-size: $textXl;
+        font-weight: $textRegular;
+        margin: 0 0 30px 50px;
+    }
+    h6{
+        color: $keyColor;
+        font-size: $textSm;
+        font-weight: $textRegular;
+        margin: 0 0 50px 50px;
+    }
+    
+    a{
+        margin: 0 0 0 50px;
     }
 }

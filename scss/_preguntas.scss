@@ -18,6 +18,10 @@
             color: $black;
         }
 
+        .accordion-button.collapsed {
+            color: $black;
+        }
+
         .accordion-button:focus {
             box-shadow: none;
             outline: none;
